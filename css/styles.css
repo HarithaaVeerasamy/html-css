@@ -1,0 +1,190 @@
+.navigation-bar{
+    background-color: #FEA116 !important;
+}
+.nav-link{
+    color: #fff !important;
+}
+.bg-hero, .bg-hero-menu {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../images/image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-hero{
+    display: flex;
+    align-items: center;
+}
+.bg-hero-menu {
+    display: flex;
+    align-items: center;  /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+.column {
+    flex: 1;
+  }
+  
+.bg-hero-title {
+    text-align: left;
+    margin-left: 20px; 
+    font-weight: 800;
+    color: #fff !important;
+}
+.cards-section-title{
+    display: block; 
+  text-align: center; 
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #FEA116 !important;
+ margin-top: 20px;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 123, 255, 0.5);
+    background-color: #FEA116 !important;
+    color: #fff !important;
+}
+.contact-border {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #FEA116 !important;
+    border-radius: 10px;
+}
+.footer .btn .btn-link {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 0px;
+    transition: 0.3s;
+}
+.btn-link{
+    text-decoration: none;
+    color: #fff !important;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out
+}
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.section-title {
+    color: #FEA116 !important;
+}
+.btn-signup, .btn-primary {
+    background-color: #FEA116 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 3px;
+}
+.btn-signup:hover, .btn-primary:hover {
+    background-color: #fff !important;
+    color: #FEA116 !important;
+    border: 1px solid #FEA116 !important;
+}
+.center-text-div {
+    display: flex;
+    justify-content: center;
+}
+.menu-header a {
+    text-decoration: none;
+}
+.menu-header h6{
+    color: #FEA116;
+}
+.menu-header i, .text-primary{
+    color: #FEA116 !important;
+}
+.add-to-cart, .remove-from-cart {
+    background-color: #fff !important;
+    border: 1px solid #FEA116;
+    color: #FEA116 !important;
+    border-radius: 5px;
+}
+.add-cart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.add-to-cart:hover, .remove-from-cart:hover{
+    background-color: #FEA116 !important;
+    color: #fff !important;
+}
+.add-to-cart {
+    color: #FEA116 !important;
+}
+.add-to-cart:hover {
+    color: #fff !important;
+}
+.nav-pills .nav-item .active {
+    border-bottom: 4px solid #FEA116;
+}
+.login-baner {
+    height: 30vh;
+}
+.even-width {
+    width:250px;
+}
+.odd-width {
+    width:180px;
+}
+.checkout-page {
+    margin: 20px;
+}
+.checkout-card {
+    border : 5px solid #FEA116 !important;
+    border-radius: 10px;
+}
+.login-header {
+    color: #FEA116 !important;
+    font-weight: 800;
+    font-style: italic;
+}
+.form-input {
+    border: 1px solid #FEA116 !important;
+    border-radius: 5px;
+}
+.form-input:focus-visible {
+    border: 1px solid #FEA116 !important;
+    border-radius: 5px;
+}
+.dropdown-item{
+    color: #FEA116 !important;
+}
+.mr-50{
+    margin-right: 50px !important;
+}
+.mr-75 {
+    margin-right: 75px !important;
+}
