@@ -1,0 +1,12 @@
+.quantity-btn{
+    border : 1px solid #FEA116 !important;
+    color: #FEA116 !important;
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center !important;
+    padding: 0 !important;
+}
+.quantity-btn:hover{
+    background-color: #FEA116 !important;
+    color: #fff !important;
+}

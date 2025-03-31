@@ -1,0 +1,72 @@
+.login-container{
+    width: 50%; /* Adjust width as needed */
+    margin: 20px; /* Centers it horizontally */
+    text-align: center; /
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form lable {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #FEA116 !important;
+    text-align: left;
+    margin-left: 20px;
+}
+.login-form input {
+    border: 1px solid #FEA116 !important;
+    border-radius: 5px;
+    height:40px
+}
+.login-form input:focus-visible {
+    border: 1px solid #FEA116 !important;
+    border-radius: 5px;
+}
+.login-button, .signup-button {
+    width:150px;
+    height: 50px;
+    border: 1px solid #FEA116;
+    border-radius: 5px !important;
+    color: #FEA116 !important;
+    background-color: #fff;
+    cursor: pointer;
+}
+.login-button:hover, .signup-button:hover {
+    background-color: #FEA116 !important;
+    color: #fff !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-group, .login-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.login-row{
+    margin: 20px;
+}
+.login-column {
+    margin:10px;
+    padding: 20px;
+    border : 3px solid #FEA116;
+    border-radius: 5px;
+}
+.login-header {
+    color: #FEA116 !important;
+    font-weight: 800;
+    font-style: italic;
+}
+.signup-button{
+    text-decoration: none;
+    padding-top: 12px;
+}
+.lableAlgin {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #FEA116 !important;
+    text-align: left;
+    margin-left: 20px;
+}
